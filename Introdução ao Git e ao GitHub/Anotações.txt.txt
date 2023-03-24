@@ -1,2 +1,18 @@
 - Link de download: https://github.com/git-guides/install-git
 Obs.: O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Informações importantes referentes ao Git Bash:
+- Após a criação de um repositório no GitHub o processo de baixar ele para trabalhar com ele na máquina é o seguinte:
+Clonar|Copiar o repositório pelo HTTPS;
+Abrir a pasta clicando com o botão direito para abrir com o Git Bash;
+Primeiro comando: git clone + paste (para colar o link do repositório);
+Segundo comando: cd dio-desafio-github-first-repository/ (cd nome do repositório para assim entrar no repositório e editar o mesmo na máquina);
+Terceiro comando: git status (para verificar se agora o repositório está na branch main - dentro da máquina);
+
+- Para colocar o conteúdo da máquina local no servidor remoto do GitHub é necessário usar essa sequência no Git Bash:
+Git status (para verificar se a nova pasta foi identificada);
+Git add . ou git add -A (para adicionar todos os arquivos da nova pasta);
+Git status (para verificar se o arquivo já está adicionado no controle de versão|o link que aparecia vermelho já aparece verde);
+Git commit -m "...mensagem" (o comando git commit -m é para a inclusão de uma mensagem, no desafio a mensagem foi "Inclusão das anotações do curso de GitHub);
+Git status (para verificar o status atual);
+Git push origin main (para enviar todos os commits locais para a nuvem, e agora sim já aparece no GitHub para acessar as informações).
