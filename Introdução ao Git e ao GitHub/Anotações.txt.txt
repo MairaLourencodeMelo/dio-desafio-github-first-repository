@@ -1,0 +1,2 @@
+- Link de download: https://github.com/git-guides/install-git
+Obs.: O Git Bash é um terminal extendido para otimizar o uso do Git.
